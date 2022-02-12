@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/frameLayout"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+tools:context=".User.AddActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:src="@drawable/ic_baseline_add_to_photos_24"
+            android:layout_gravity="center"
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_marginTop="20dp"
+            android:layout_margin="5dp"
+            android:id="@+id/edt_price"
+            android:hint="price"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+    <ImageView
+        android:layout_weight="3"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_money_20"
+        />
+</LinearLayout>
+
+        <EditText
+            android:layout_margin="5dp"
+            android:hint="information"
+            android:id="@+id/edt_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edt_address"
+            android:hint="address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_baseline_add_location_24"
+            android:layout_gravity="center"
+            android:id="@+id/addLocation"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_save_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"/>
+
+        <Button
+            android:id="@+id/btn_cancel_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

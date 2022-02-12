@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_add_location_24.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_add_loxcation_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_add_to_photos_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_assignment_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2037037037037037" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.26256410256410256" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/drawable/ic_baseline_remove_red_eye_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_add.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_apartment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_apartment_admin.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_edit_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_forget_password.xml" value="0.153125" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_login_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_main2.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_main3.xml" value="0.12604166666666666" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_main_admin.xml" value="0.1" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_main_user.xml" value="0.1328125" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_my_apartment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_order_admin.xml" value="0.1" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_profile.xml" value="0.182518115942029" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/activity_register.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_add.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_blank.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_home_admin.xml" value="0.1" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_home_user.xml" value="0.12360688956433637" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_maps.xml" value="0.13541666666666666" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_maps2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_my_apartment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_order_admin.xml" value="0.1" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/item_apartment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/item_my_apartment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/layout/item_order_admin.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/menu/bottom_menu_admin.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/menu/bottom_menu_user.xml" value="0.10925925925925926" />
+        <entry key="..\:/Users/AslamSh/Desktop/AppApartment/app/src/main/res/menu/menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

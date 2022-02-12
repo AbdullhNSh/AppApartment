@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".User.MyApartmentActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/imageView_my_apartment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@color/cardview_dark_background"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:gravity="right"
+
+                android:id="@+id/txt_time_ago_my_apartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="20"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <androidx.cardview.widget.CardView
+                    app:cardBackgroundColor="#A1E1EA"
+
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+
+                    app:cardCornerRadius="20dp">
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/txt_num_my_apartment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textColor="#fff"
+                        android:drawableTop="@drawable/ic_baseline_remove_red_eye_24"
+
+                        android:textSize="30dp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    app:cardBackgroundColor="#A1E1EA"
+
+                    android:layout_margin="5dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    app:cardCornerRadius="20dp">
+                    <TextView
+                        android:gravity="center"
+                        android:id="@+id/txt_bool_my_apartment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:textSize="30dp" />
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            app:cardBackgroundColor="#A1E1EA"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="#A1E1EA"
+
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+
+                app:cardCornerRadius="20dp">
+                <TextView
+                    android:drawableTop="@drawable/ic_baseline_add_location_24"
+                    android:gravity="center"
+                    android:id="@+id/txt_address_my_apartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="#A1E1EA"
+
+                android:layout_margin="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                app:cardCornerRadius="20dp">
+                <TextView
+                    android:gravity="center"
+
+                    android:id="@+id/txt_price_my_apartment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="20sp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:gravity="center"
+
+            android:id="@+id/txt_info_my_apartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="400dp"
+            android:textSize="30dp" />
+
+
+        <FrameLayout
+            android:id="@+id/frame_map_my_apartment"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="20dp" />
+
+
+        <Button
+            android:id="@+id/btnDeleteMyApartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginBottom="40dp"/>
+    </LinearLayout>
+
+</ScrollView>

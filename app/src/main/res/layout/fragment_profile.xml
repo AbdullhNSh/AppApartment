@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Fragment.ProfileFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:layout_margin="20dp"
+            android:hint="Username"
+
+            android:textSize="30dp"
+            android:textAlignment="textStart"
+            android:id="@+id/edt_username_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+
+            android:layout_margin="20dp"
+            android:hint="Email"
+            android:textAlignment="textStart"
+            android:paddingLeft="5dp"
+
+            android:textSize="30dp"
+            android:id="@+id/edt_email_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+
+            android:layout_margin="20dp"
+            android:hint="Phone"
+            android:textSize="30dp"
+            android:textAlignment="textStart"
+
+            android:id="@+id/edt_phone_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_edit_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="edit"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_logOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="logOut"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
